@@ -15,7 +15,7 @@ A backend application to manage perishable product inventories, built with the [
 
 - Node.js (version 14 or higher)
 - npm (version 6 or higher)
-- PostgreSQL database
+- MySql database
 
 ## Installation
 
@@ -33,7 +33,7 @@ npm install
 ## Configure environment variables:
 Create a .env file in the root of the project and add the following variables:
 DATABASE_HOST=localhost
-DATABASE_PORT=5432
+DATABASE_PORT=3306
 DATABASE_USER=your-username
 DATABASE_PASSWORD=your-password
 DATABASE_NAME=your-database-name

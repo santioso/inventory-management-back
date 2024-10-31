@@ -22,7 +22,7 @@ A backend application to manage perishable product inventories, built with the [
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/santioso/inventory-management-back
+git clone https://github.com/santioso/inventory-management-back.git
 cd perishable-inventory-backend
 ```
 

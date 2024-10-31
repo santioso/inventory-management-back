@@ -15,8 +15,8 @@ A backend application to manage perishable product inventories, built with the [
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/santioso/inventory-management-back/tree/master
-cd inventory-backend
+git clone https://github.com/santioso/inventory-management-back.git
+cd perishable-inventory-backend
 ```
 
 ### Install dependencies:

@@ -1,12 +1,5 @@
 # Perishable Inventory Backend
 
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
-
-<a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-<a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-
 ## Description
 
 A backend application to manage perishable product inventories, built with the [NestJS](https://nestjs.com/) framework.
@@ -15,15 +8,15 @@ A backend application to manage perishable product inventories, built with the [
 
 - Node.js (version 14 or higher)
 - npm (version 6 or higher)
-- PostgreSQL database
+- MySql database
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/perishable-inventory-backend.git
-cd perishable-inventory-backend
+git clone https://github.com/santioso/inventory-management-back/tree/master
+cd inventory-backend
 ```
 
 ### Install dependencies:
@@ -33,7 +26,7 @@ npm install
 ## Configure environment variables:
 Create a .env file in the root of the project and add the following variables:
 DATABASE_HOST=localhost
-DATABASE_PORT=5432
+DATABASE_PORT=3306
 DATABASE_USER=your-username
 DATABASE_PASSWORD=your-password
 DATABASE_NAME=your-database-name
